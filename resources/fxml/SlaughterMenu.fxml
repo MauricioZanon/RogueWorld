@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane style="-fx-control-inner-background: BLACK; -fx-background-color: BLACK; -fx-focus-color: TRANSPARENT; -fx-faint-focus-color: TRANSPARENT;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rogueworld.gui.menus.SlaughterMenuController">
+   <top>
+      <Label style="-fx-font-weight: BOLD;" text="Slaughter" textFill="WHITE" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <StackPane fx:id="bottomBar" alignment="CENTER_LEFT" prefHeight="27.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label focusTraversable="false" style="-fx-font-weight: BOLD;" text="[f]ind | [c]lear search" textFill="WHITE" />
+            <TextField fx:id="searchField" onKeyReleased="#fillEntitiesList" visible="false" />
+         </children>
+      </StackPane>
+   </bottom>
+   <left>
+      <ListView fx:id="entitiesList" onKeyPressed="#handleKeyPressedInEntitiesList" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <ListView fx:id="slaughterOptionList" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#handleKeyPressedInOptionsList" prefWidth="147.0" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <TextFlow fx:id="descField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="355.0" prefWidth="253.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handlePressedKeyInSpellsList" prefHeight="400.0" prefWidth="600.0" style="-fx-control-inner-background: BLACK; -fx-background-color: BLACK; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rogueworld.gui.menus.SpellsMenuController">
+   <left>
+      <TreeView fx:id="spellsList" onKeyPressed="#handlePressedKeyInSpellsList" prefHeight="200.0" prefWidth="200.0" showRoot="false" style="-fx-border-color: BLACK; -fx-font-weight: BOLD;" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <Label focusTraversable="false" style="-fx-font-weight: BOLD; -fx-background-color: BLACK;" text="Spells" textAlignment="CENTER" textFill="WHITE" underline="true" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <StackPane alignment="CENTER_LEFT" prefHeight="27.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label focusTraversable="false" style="-fx-font-weight: BOLD;" text="[f]ind | [c]lear search" textFill="WHITE" />
+            <TextField fx:id="searchField" onKeyReleased="#fillList" visible="false" />
+         </children>
+      </StackPane>
+   </bottom>
+   <center>
+      <TextFlow fx:id="spellDesc" prefHeight="356.0" prefWidth="226.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

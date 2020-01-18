@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Messages>
+
+	<KEYWORDS>
+        (TEXT)		texto normal
+        (ENEMY)		enemigos
+        (ITEM)		items
+		(DAMAGE)	el personaje recibe daño	
+	</KEYWORDS>
+
+	<Message>
+		<Type>PlayerPicksUp</Type>
+		<Text>(TEXT)You pick up the()(ITEM) /0/().</Text>
+		<Text>(TEXT)You put the()(ITEM) /0/() in your inventory.</Text>
+	</Message>
+
+	<Message>
+		<Type>StandingOnItem</Type>
+		<Text>(TEXT)There is a(ITEM) /0/() on the ground.</Text>
+	</Message>
+		
+	<Message>
+		<Type>NoItemHere</Type>
+		<Text>(TEXT)There is nothing to pick up here.</Text>
+	</Message>
+	
+	<Message>
+		<Type>PlayerAttacksNPC</Type>
+		<Text>(TEXT)You strike the(ENEMY) /0/().</Text>
+	</Message>
+
+
+	<Message>
+		<Type>NPCAttacksPlayer</Type>
+		<Text>(DAMAGE)The(ENEMY) /0/() attacks you.</Text>
+	</Message>
+
+
+	<Message>
+		<Type>NPCAttacksNPC</Type>
+		<Text>(TEXT)The(ENEMY) /0/() attacks the(ENEMY) /1/().</Text>
+	</Message>  
+
+	<Message>
+		<Type>PlayerWieldsItem</Type>
+		<Text>(TEXT)You start wielding your (ITEM)/0/().</Text>
+	</Message>
+
+	<Message>
+		<Type>PlayerEquipsItem</Type>
+		<Text>(TEXT)You put on your (ITEM)/0/().</Text>
+	</Message>
+
+	<Message>
+		<Type>PlayerDrinksPotion</Type>
+		<Text>(TEXT)You drink the(ITEM) /0/().</Text>
+	</Message>
+
+	<Message>
+		<Type>NpcDrinksPotion</Type>
+		<Text>(TEXT)The (ENEMY)/0/() drinks a potion.</Text>
+	</Message>
+
+	<Message>
+		<Type>PlayerHeals</Type>
+		<Text>(TEXT)Some of your wounds are healed.</Text>
+	</Message>
+
+	<Message>
+		<Type>NpcHeals</Type>
+		<Text>(TEXT)The wounds on the (ENEMY)/0/() are closing.</Text>
+	</Message>
+
+</Messages>

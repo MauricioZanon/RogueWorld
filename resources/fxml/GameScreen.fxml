@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handlePressedKeyOnEntityLayer" prefHeight="876.0" prefWidth="1194.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rogueworld.gui.gamescreen.GameScreenController">
+   <left>
+      <StackPane prefHeight="400.0" prefWidth="47.0" BorderPane.alignment="CENTER">
+         <children>
+            <Canvas fx:id="entitiesLayer" height="401.0" onKeyPressed="#handlePressedKeyOnEntityLayer" width="430.0" />
+            <Canvas fx:id="darknessLayer" height="200.0" mouseTransparent="true" width="200.0" />
+            <Canvas fx:id="selectionLayer" height="200.0" onKeyPressed="#handlePressedKeyOnSelectionLayer" onMouseClicked="#handleMouseClicked" onMouseMoved="#handleMouseMoved" width="200.0" />
+         </children>
+      </StackPane>
+   </left>
+   <right>
+      <VBox fx:id="sideBar" prefHeight="876.0" prefWidth="373.0" style="-fx-border-color: GREY; -fx-border-width: 3;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="resourceBars" prefHeight="200.0" prefWidth="100.0" />
+            <Label fx:id="clockLabel" style="-fx-text-fill: WHITE;" text=" " />
+            <ScrollPane fx:id="textContainer" focusTraversable="false" hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" vvalue="1.0">
+               <content>
+                  <TextFlow fx:id="console" accessibleText="asdasd" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="195.0" prefWidth="364.0" style="-fx-background-color: BLACK; -fx-border-color: LightSlateGrey; -fx-border-width: 3;" />
+               </content>
+            </ScrollPane>
+            <Label fx:id="viewedEntityName" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children></VBox>
+   </right>
+</BorderPane>

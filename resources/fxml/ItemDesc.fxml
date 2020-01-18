@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.TextFlow?>
+
+
+<TextFlow fx:id="itemDesc" minWidth="700.0" prefHeight="356.0" prefWidth="226.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" />

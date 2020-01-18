@@ -1,0 +1,117 @@
+<Features>
+
+	<object-array id="2000" name="up stair" type="FEATURE" flags="GOES_UP,INDESTRUCTIBLE">
+		<components.GraphicComponent>
+			<ASCII>&#x003C;</ASCII>
+			<color>
+				<red>1.0</red>
+				<green>0.0</green>
+				<blue>0.0</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="2001" name="down stair" type="FEATURE" flags="GOES_DOWN,INDESTRUCTIBLE">
+		<components.GraphicComponent>
+			<ASCII>></ASCII>
+			<color>
+				<red>1.0</red>
+				<green>0.0</green>
+				<blue>0.0</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="2002" name="tree" type="FEATURE" flags="INFLAMMABLE,OPAQUE">
+		<components.GraphicComponent>
+			<ASCII>&#x2551;</ASCII>
+			<color>
+				<red>0.48</red>
+				<green>0.38</green>
+				<blue>0.21</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+
+	<object-array id="2003" name="closed door" type="FEATURE" flags="INFLAMMABLE,OPAQUE">
+		<components.GraphicComponent>
+			<ASCII>+</ASCII>
+			<color>
+				<red>0.54509807</red>
+				<green>0.27058825</green>
+				<blue>0.07450981</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="2004" name="open door" type="FEATURE" flags="INFLAMMABLE">
+		<components.GraphicComponent>
+			<ASCII>/</ASCII>
+			<color>
+				<red>0.54509807</red>
+				<green>0.27058825</green>
+				<blue>0.07450981</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="2005" name="broken door" type="FEATURE" flags="INFLAMMABLE">
+		<components.GraphicComponent>
+			<ASCII>;</ASCII>
+			<color>
+				<red>0.54509807</red>
+				<green>0.27058825</green>
+				<blue>0.07450981</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="2006" name="torch" type="FEATURE" flags="LIGHT_SOURCE">
+		<components.GraphicComponent>
+			<ASCII>*</ASCII>
+			<color>
+				<red>1</red>
+				<green>0.78</green>
+				<blue>0.0</blue>
+				<opacity>1.0</opacity>
+			</color>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>lightDistance</string>
+					<float>10.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+		</components.GraphicComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+
+</Features>
+

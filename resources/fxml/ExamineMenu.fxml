@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handlePressedKeyInEntitiesList" prefHeight="400.0" prefWidth="600.0" style="-fx-control-inner-background: BLACK; -fx-background-color: BLACK; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rogueworld.gui.menus.ExamineMenuController">
+   <top>
+      <Label focusTraversable="false" style="-fx-font-weight: BOLD; -fx-background-color: BLACK;" text="Use" textAlignment="CENTER" textFill="WHITE" underline="true" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <ListView fx:id="entitiesList" maxWidth="150.0" onKeyPressed="#handlePressedKeyInEntitiesList" prefHeight="356.0" prefWidth="152.0" style="-fx-border-color: BLACK; -fx-font-weight: BOLD;" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <ListView fx:id="actionList" maxWidth="150.0" onKeyPressed="#handleKeyPressedInActionList" prefHeight="356.0" prefWidth="152.0" style="-fx-border-color: BLACK;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handlePressedKeyInLefItemList" prefHeight="400.0" prefWidth="600.0" style="-fx-control-inner-background: BLACK; -fx-background-color: BLACK; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rogueworld.gui.itemmenus.ItemExchangeController">
+   <top>
+      <Label focusTraversable="false" style="-fx-font-weight: BOLD; -fx-background-color: BLACK;" text="Items exchange" textAlignment="CENTER" textFill="WHITE" underline="true" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <TextFlow fx:id="itemDesc" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <StackPane fx:id="bottomBar" alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label focusTraversable="false" style="-fx-font-weight: BOLD;" text="[f]ind | [c]lear search" textFill="WHITE" />
+            <TextField fx:id="searchField" visible="false" />
+         </children>
+      </StackPane>
+   </bottom>
+   <left>
+      <TreeView fx:id="leftItemList" onKeyPressed="#handlePressedKeyInLefItemList" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: BLACK; -fx-font-weight: BOLD;" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <TreeView fx:id="rightItemList" onKeyPressed="#handlePressedKeyInRighttemList" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: BLACK; -fx-font-weight: BOLD;" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

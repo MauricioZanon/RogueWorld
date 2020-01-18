@@ -1,0 +1,303 @@
+<Terrains>
+
+	<object-array id="1000" name="concrete wall" type="TERRAIN" flags="OPAQUE">
+		<components.GraphicComponent>
+			<ASCII>#</ASCII>
+			<color>
+				<red>0.3411</red>
+				<green>0.4039</green>
+				<blue>0.4823</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.247</red>
+				<green>0.2901</green>
+				<blue>0.349</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="1001" name="concrete floor" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>.</ASCII>
+			<color>
+				<red>0.6352</red>
+				<green>0.7176</green>
+				<blue>0.7568</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.4078</red>
+				<green>0.4627</green>
+				<blue>0.4862</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="1002" name="wooden wall" type="TERRAIN" flags="INFLAMMABLE,OPAQUE">
+		<components.GraphicComponent>
+			<ASCII>#</ASCII>
+			<color>
+				<red>0.7176</red>
+				<green>0.6352</green>
+				<blue>0.3882</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.498</red>
+				<green>0.4392</green>
+				<blue>0.2666</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="1003" name="wooden floor" type="TERRAIN" flags="INFLAMMABLE">
+		<components.GraphicComponent>
+			<ASCII>.</ASCII>
+			<color>
+				<red>0.8274</red>
+				<green>0.7529</green>
+				<blue>0.5450</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.5686</red>
+				<green>0.5176</green>
+				<blue>0.3725</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="1004" name="grass floor" type="TERRAIN" flags="INFLAMMABLE">
+		<components.GraphicComponent>
+			<ASCII>.</ASCII>
+			<color>
+				<red>0.6313</red>
+				<green>0.8313</green>
+				<blue>0.5647</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.4470</red>
+				<green>0.5882</green>
+				<blue>0.4</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+		
+	<object-array id="1005" name="dirt wall" type="TERRAIN" flags="OPAQUE">
+		<components.GraphicComponent>
+			<ASCII>#</ASCII>
+			<color>
+				<red>0.6078</red>
+				<green>0.6010</green>
+				<blue>0.4980</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.3568</red>
+				<green>0.3411</green>
+				<blue>0.2666</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+		
+	<object-array id="1006" name="dirt floor" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>.</ASCII>
+			<color>
+				<red>0.8666</red>
+				<green>0.8392</green>
+				<blue>0.7098</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.5098</red>
+				<green>0.4901</green>
+				<blue>0.4117</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+			
+	<object-array id="1007" name="stone wall" type="TERRAIN" flags="OPAQUE">
+		<components.GraphicComponent>
+			<ASCII>#</ASCII>
+			<color>
+				<red>0.58</red>
+				<green>0.59</green>
+				<blue>0.59</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.37</red>
+				<green>0.38</green>
+				<blue>0.39</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+			
+	<object-array id="1008" name="stone floor" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>.</ASCII>
+			<color>
+				<red>0.86</red>
+				<green>0.86</green>
+				<blue>0.86</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.58</red>
+				<green>0.58</green>
+				<blue>0.58</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+			
+	<object-array id="1009" name="shallow water" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>~</ASCII>
+			<color>
+				<red>0.45</red>
+				<green>0.76</green>
+				<blue>1</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.3</red>
+				<green>0.5</green>
+				<blue>0.67</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+			
+	<object-array id="1010" name="deep water" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>~</ASCII>
+			<color>
+				<red>0.3</red>
+				<green>0.5</green>
+				<blue>0.67</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.2</red>
+				<green>0.33</green>
+				<blue>0.44</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="1011" name="sand floor" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>.</ASCII>
+			<color>
+				<red>0.93</red>
+				<green>0.78</green>
+				<blue>0.53</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>
+				<red>0.94</red>
+				<green>0.81</green>
+				<blue>0.66</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>true</transitable>
+		</components.TransitableComponent>
+	</object-array>
+	
+	<object-array id="1012" name="lava" type="TERRAIN">
+		<components.GraphicComponent>
+			<ASCII>~</ASCII>
+			<color>
+				<red>0.87</red>
+				<green>0.18</green>
+				<blue>0.02</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.BackColorComponent>
+			<color>	
+				<red>0.98</red>
+				<green>0.41</green>
+				<blue>0.02</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.BackColorComponent>
+		<components.TransitableComponent>
+			<transitable>false</transitable>
+		</components.TransitableComponent>
+	</object-array>
+
+
+</Terrains>

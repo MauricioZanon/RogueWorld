@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Armors>
+
+	<object-array id="3000" name="iron plate" type="BREASTPLATE" flags="PICKUPABLE,WEARABLE">
+		<components.GraphicComponent>
+			<ASCII>[</ASCII>
+			<color>
+				<red>0.8</red>
+				<green>0.8</green>
+				<blue>0.8</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>defense</string>
+					<float>4.0</float>
+				</entry>
+				<entry>
+					<string>weight</string>
+					<float>20.0</float>
+				</entry>
+				<entry>
+					<string>quantity</string>
+					<float>1.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+	</object-array>
+	
+	<object-array id="3001" name="iron greaves" type="GREAVES" flags="PICKUPABLE,WEARABLE">
+		<components.GraphicComponent>
+			<ASCII>[</ASCII>
+			<color>
+				<red>0.8</red>
+				<green>0.8</green>
+				<blue>0.8</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>defense</string>
+					<float>1.0</float>
+				</entry>
+				<entry>
+					<string>weight</string>
+					<float>15.0</float>
+				</entry>
+				<entry>
+					<string>quantity</string>
+					<float>1.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+	</object-array>
+
+	<object-array id="3002" name="pair of iron boots" type="BOOTS" flags="PICKUPABLE,WEARABLE">
+		<components.GraphicComponent>
+			<ASCII>[</ASCII>
+			<color>
+				<red>0.8</red>
+				<green>0.8</green>
+				<blue>0.8</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>defense</string>
+					<float>1.0</float>
+				</entry>
+				<entry>
+					<string>weight</string>
+					<float>5.0</float>
+				</entry>
+				<entry>
+					<string>quantity</string>
+					<float>1.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+	</object-array>
+	
+	<object-array id="3003" name="iron helmet" type="HELMET" flags="PICKUPABLE,WEARABLE">
+		<components.GraphicComponent>
+			<ASCII>[</ASCII>
+			<color>
+				<red>0.8</red>
+				<green>0.8</green>
+				<blue>0.8</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>defense</string>
+					<float>1.0</float>
+				</entry>
+				<entry>
+					<string>weight</string>
+					<float>5.0</float>
+				</entry>
+				<entry>
+					<string>quantity</string>
+					<float>1.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+	</object-array>
+	
+	<object-array id="3004" name="pair of iron gloves" type="GLOVES" flags="PICKUPABLE,WEARABLE">
+		<components.GraphicComponent>
+			<ASCII>[</ASCII>
+			<color>
+				<red>0.8</red>
+				<green>0.8</green>
+				<blue>0.8</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>defense</string>
+					<float>1.0</float>
+				</entry>
+				<entry>
+					<string>weight</string>
+					<float>5.0</float>
+				</entry>
+				<entry>
+					<string>quantity</string>
+					<float>1.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+	</object-array>
+
+</Armors>

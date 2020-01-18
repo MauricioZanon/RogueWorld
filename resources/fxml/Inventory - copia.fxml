@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handlePressedKeyInItemList" prefHeight="400.0" prefWidth="600.0" style="-fx-control-inner-background: BLACK; -fx-background-color: BLACK; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rogueworld.gui.menus.InventoryController">
+   <top>
+      <Label focusTraversable="false" style="-fx-font-weight: BOLD; -fx-background-color: BLACK;" text="Inventory" textAlignment="CENTER" textFill="WHITE" underline="true" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <StackPane fx:id="bottomBar" alignment="CENTER_LEFT" prefHeight="27.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label focusTraversable="false" style="-fx-font-weight: BOLD;" text="[f]ind | [c]lear search" textFill="WHITE" />
+            <TextField fx:id="searchField" visible="false" />
+         </children>
+      </StackPane>
+   </bottom>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TreeView fx:id="itemList" onKeyPressed="#handlePressedKeyInItemList" prefHeight="200.0" prefWidth="200.0" showRoot="false" style="-fx-border-color: BLACK; -fx-font-weight: BOLD;" />
+            <ListView fx:id="actionList" maxWidth="150.0" onKeyPressed="#handleKeyPressedInActionList" prefHeight="356.0" prefWidth="152.0" style="-fx-border-color: BLACK;" />
+            <TextFlow fx:id="itemDesc" maxWidth="1.7976931348623157E308" prefHeight="356.0" prefWidth="226.0" />
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

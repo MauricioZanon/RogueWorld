@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+
+	<object-array id="6000" name="key" type="KEY">
+		<components.GraphicComponent>
+			<ASCII>,</ASCII>
+			<color>
+				<red>0.49803922</red>
+				<green>0.49803922</green>
+				<blue>0.49803922</blue>
+				<opacity>1.0</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>weight</string>
+					<float>0.1</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+		<components.PickupableComponent/>
+	</object-array>
+	
+</Items>

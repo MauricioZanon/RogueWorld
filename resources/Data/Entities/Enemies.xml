@@ -1,0 +1,41 @@
+<Enemies>    
+
+	<Entity id="0" name="slime" type="ACTOR">
+		<attributes>
+			<STR>10</STR>
+			<AGI>10</AGI>
+			<CON>10</CON>
+			<INT>10</INT>
+			<WIS>10</WIS>
+			<CHA>10</CHA>
+			<generalSpeed>10</generalSpeed>
+			<movementSpeed>10</movementSpeed>
+			<attackSpeed>10</attackSpeed>
+			<castSpeed>10</castSpeed>
+		</attributes>
+		<components>
+			<components.GraphicComponent>
+				<ASCII>s</ASCII>
+				<color>
+					<red>0.0</red>
+					<green>1.0</green>
+					<blue>0.0</blue>            
+					<opacity>1.0</opacity>
+				</color>
+			</components.GraphicComponent>
+			<components.HealthComponent>
+				<maxHP>20.0</maxHP>
+				<curHP>20.0</curHP>
+				<HPreg>0.1</HPreg>
+			</components.HealthComponent>
+			<components.MovementComponent>
+				<movementType>WALK</movementType>
+			</components.MovementComponent>
+			<components.ContainerComponent>
+				<items/>
+			</components.ContainerComponent>
+	
+		</components>
+	</Entity>
+
+</Enemies>

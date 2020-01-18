@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Weapons>
+
+	<object-array id="4000" name="sword" type="SWORD" flags="PICKUPABLE">
+		<components.GraphicComponent>
+			<ASCII>/</ASCII>
+			<color>
+				<red>0.8</red>
+				<green>0.8</green>
+				<blue>0.8</blue>
+				<opacity>1</opacity>
+			</color>
+		</components.GraphicComponent>
+		<components.AttributeComponent>
+			<att>
+				<entry>
+					<string>damage</string>
+					<float>10.0</float>
+				</entry>
+				<entry>
+					<string>quantity</string>
+					<float>1.0</float>
+				</entry>
+			</att>
+		</components.AttributeComponent>
+	</object-array>
+
+</Weapons>
