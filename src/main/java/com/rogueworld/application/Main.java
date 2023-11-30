@@ -22,6 +22,7 @@ public class Main extends Application {
 	
 	public static Entity player;
 	
+	// Correr mvn clean javafx:run
 	public static void main(String[] args) {
         launch(args);
     }

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BasicGameApp",
+            "request": "launch",
+            "mainClass": "com.rogueworld.application.BasicGameApp",
+            "projectName": "hellofx"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.rogueworld.application.Main",
+            "projectName": "hellofx"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "com.rogueworld.application.Main",
